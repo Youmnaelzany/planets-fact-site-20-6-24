@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import '@/styles/globals.css';
+---
+
+<Layout title='Planets fact site.'>
+  <Header />
+  <main></main>
+</Layout>
+
+<style is:global>
+  body {
+    background-color: #070724;
+    background-image: url('/images/background-stars.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
